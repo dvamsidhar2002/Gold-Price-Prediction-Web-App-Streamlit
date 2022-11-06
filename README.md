@@ -22,11 +22,14 @@ E[Step 4 : Perform EDA by visualizing the data] --> F[Step 5 : Train ML model us
   Modules used in this project : 
   
   ```
-    import numpy as np
-    import pandas as pd
-    from sklearn.model_selection import train_test_split
-    from sklearn.metrics import accuracy_score
-    from sklearn.linear_model import LogisticRegression
+    import numpy as np                                          #to convert data into numpy arrays
+    import pandas as pd                                         #for data pre-processing technique and importing our data
+    import matplotlib.pyplot as plt                             #for creating data visualizations to explore the data
+    import seaborn as sns                                       #for making such visualizations and creating plots
+    from sklearn.model_selection import train_test_split        #to divide our original data into training data and testing data
+    from sklearn.ensemble import RandomForestRegressor          #to build our regression type ml model from sklearn import metrics #to evaluate the accuracy of our ml model
   ```
+  
+  
     
   
