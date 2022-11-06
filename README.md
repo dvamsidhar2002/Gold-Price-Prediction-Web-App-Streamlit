@@ -42,4 +42,4 @@ E[Step 4 : Perform EDA by visualizing the data] --> F[Step 5 : Train ML model us
 </ol>
 
     
-## In this way we can predict the price of gold, the prediction can be done more accurately if used neural networks and huge dataset and deep learning .
+###  In this way we can predict the price of gold. The prediction can be done more accurately if used neural networks and huge dataset and deep learning .
