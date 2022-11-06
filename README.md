@@ -38,6 +38,8 @@ E[Step 4 : Perform EDA by visualizing the data] --> F[Step 5 : Train ML model us
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2,random_state=2)
    ```
   
- 
+ <li><b><i>LOGISTIC REGRESSION MODEL</b></i> - This is a main model which we were talikng about. We chose "Logistic Regression Model out of all other models because we need a model which answers in only two ways either it is a Rock(['R']) or it is a Mine(['M])."
+</ol>
+
     
-  
+## In this way we can predict the price of gold, the prediction can be done more accurately if used neural networks and huge dataset and deep learning .
