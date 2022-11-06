@@ -30,6 +30,14 @@ E[Step 4 : Perform EDA by visualizing the data] --> F[Step 5 : Train ML model us
     from sklearn.ensemble import RandomForestRegressor          #to build our regression type ml model from sklearn import metrics #to evaluate the accuracy of our ml model
   ```
   
+  <li><b><i>DATA PRE-PROCESSING</b></i> - This step involves the set of different processes like data cleaning, data integration and other such processes which basically means removing noise and inconsistency from the data.
+    
+  <li><b><i>TRAIN TEST SPLIT</b></i> - This is the crucial step where we divide the dataset into two halves called "Training data" and "Testing data". This helps to test the accuracy score of the model which going to be developed and trained.
+    
+   ```
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2,random_state=2)
+   ```
   
+ 
     
   
