@@ -1,5 +1,5 @@
 # Gold-Price-Prediction-using-Python
-This is a Gold Price Predictor where it predicts the price of gold on the basis of different data like Date, Silver etc. 
+This is a Gold Price Predictor where it predicts the price of gold on the basis of different data like Date, Silver etc. The machine learning algorithm used for this project is RANDOM FOREST REGRESSOR.
 
 Dataset Link : https://www.kaggle.com/datasets/altruistdelhite04/gold-price-data
 
