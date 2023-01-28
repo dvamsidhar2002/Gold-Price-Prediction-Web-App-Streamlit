@@ -34,7 +34,7 @@ def main():
     SLV = st.text_input('SLV value : ')
     EUR_USD = st.text_input('EUR or USD value : ')
     
-   predicted_price = ''
+    predicted_price = ''
    
     #getting input data from the user
     if st.button('Predicted price of Gold : '):
