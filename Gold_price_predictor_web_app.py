@@ -34,12 +34,13 @@ def main():
     SLV = st.text_input('SLV value : ')
     EUR_USD = st.text_input('EUR or USD value : ')
     
-   
+   predicted_price = ''
    
     #getting input data from the user
     if st.button('Predicted price of Gold : '):
         predicted_price = gold_price_prediction([SPX,USO,SLV,EUR_USD])
      
+    st.success(predicted_price)
 
 #Driver Code
 if __name__ == '__main__':
