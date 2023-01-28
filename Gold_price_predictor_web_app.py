@@ -40,7 +40,6 @@ def main():
     if st.button('Predicted price of Gold : '):
         predicted_price = gold_price_prediction([SPX,USO,SLV,EUR_USD])
      
-    st.success(predicted_price)
 
 #Driver Code
 if __name__ == '__main__':
