@@ -21,7 +21,7 @@ def gold_price_prediction(input_data):
     input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
     
     prediction = loaded_model.predict(input_data_reshaped)
-    return prediction:
+    
     
 def main():
     #giving the title
@@ -34,13 +34,12 @@ def main():
     SLV = st.text_input('SLV value : ')
     EUR_USD = st.text_input('EUR or USD value : ')
     
-    #code for prediction
-    predicted_price = ''
-    
+   
+   
     #getting input data from the user
     if st.button('Predicted price of Gold : '):
         predicted_price = gold_price_prediction([SPX,USO,SLV,EUR_USD])
-        print(predicted_price)
+     
     st.success(predicted_price)
 
 #Driver Code
