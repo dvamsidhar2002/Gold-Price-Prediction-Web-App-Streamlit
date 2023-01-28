@@ -13,7 +13,7 @@ import streamlit as st
 loaded_model = pickle.load(open('gold_price_predictor.sav','rb'))
 
 #creating a function for prediction
-def gold_price_prediction(input_data):
+''' def gold_price_prediction(input_data):
     #changing the input_data to numpy data
     input_data_as_numpy_array = np.asarray(input_data)
     
@@ -21,7 +21,7 @@ def gold_price_prediction(input_data):
     input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
     
     prediction = loaded_model.predict(input_data_reshaped)
-    print(prediction)
+    print(prediction)'''
     
 def main():
     #giving the title
@@ -38,7 +38,14 @@ def main():
    
     #getting input data from the user
     if st.button('Predicted price of Gold : '):
-        predicted_price = gold_price_prediction([SPX,USO,SLV,EUR_USD])
+        input_data = [SPX,USO,SLV,EUR_USD]
+        input_data_as_numpy_array = np.asarray(input_data)
+    
+        #reshape the array
+        input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
+    
+        prediction = loaded_model.predict(input_data_reshaped)
+        print(prediction)
      
     st.success(predicted_price)
 
