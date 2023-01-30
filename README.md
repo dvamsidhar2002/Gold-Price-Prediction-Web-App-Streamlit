@@ -1,4 +1,10 @@
 # Gold-Price-Prediction-using-Random-Forest-Regressor
+
+![Type](https://img.shields.io/badge/Machine-Learning-red.svg)
+![IDE](https://img.shields.io/badge/IDE-JupyterNotebook-orange.svg)
+![Type](https://img.shields.io/badge/Type-Supervised-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Completed-darkgreen.svg)
+
 This is a Gold Price Predictor where it predicts the price of gold on the basis of different data like Date, Silver etc. The machine learning algorithm used for this project is RANDOM FOREST REGRESSOR.
 
 ### Click here to visit the Web app
