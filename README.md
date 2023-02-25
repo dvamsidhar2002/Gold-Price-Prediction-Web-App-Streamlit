@@ -7,8 +7,8 @@
 
 This is a Gold Price Predictor where it predicts the price of gold on the basis of different data like Date, Silver etc. The machine learning algorithm used for this project is RANDOM FOREST REGRESSOR.
 
-### Click here to visit the Web app
- <a href="https://dvamsidhar2002-heart-di-heart-disease-prediction-web-app-fntmgg.streamlit.app/">
+### Click here to visit the Web app : 
+<a href="https://dvamsidhar2002-heart-di-heart-disease-prediction-web-app-fntmgg.streamlit.app/">
     <img src="https://img.shields.io/badge/Gold Price Predictor-0A0A0A?style=plastic&logo=HERE&logoColor=white" height=20></a>
 
 
